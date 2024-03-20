@@ -1,0 +1,72 @@
+:root {
+    --fonteTexto: "Inter", sans-serif;
+    --corBotao: #ffd000;
+    --corTexto: #3a3a3a;
+}
+
+.titulo {
+    text-align: center;
+    font-family: var(--fonteTexto);
+    color: var(--corTexto);
+    font-weight: 700;
+    font-size: 52px;
+    margin-top: 60px;
+}
+
+.subtitulo {
+    text-align: center;
+    font-family: var(--fonteTexto);
+    color: var(--corTexto);
+    font-weight: 600;
+}
+
+.formulario {
+    border: 1px solid var(--corBotao);
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.informacoesTexto {
+    font-family: var(--fonteTexto);
+    color: var(--corTexto);
+    text-align: center;
+}
+
+.input {
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.botao {
+    display: block;
+    margin: 30px auto;
+    padding: 10px 20px;
+    background-color: var(--corBotao);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.resultado {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid var(--corBotao);
+    border-radius: 5px;
+}
+
+.informacoes {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.image {
+    display: block;
+    margin: 0 auto;
+}
